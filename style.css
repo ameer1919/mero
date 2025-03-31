@@ -1,0 +1,26 @@
+body{
+    background-color: #161212;
+}
+img {
+    width: 30%;
+    margin: calc(10%/6);    
+    transition: transform 0.25s;
+    border: 0.1rem solid white;
+    box-sizing: border-box;
+}
+img:hover{
+    transform: scale(120%);
+}
+img:active{
+    transform: scale(110%);
+}
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    color: #f1f1f1;
+}
